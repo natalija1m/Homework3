@@ -4,6 +4,8 @@ import pandas as pd
 
 from models import Company, db, CompanyData
 
+from technical_analysis import calculate_indicators
+
 
 def handle_price(price):
 
